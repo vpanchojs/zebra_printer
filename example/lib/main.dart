@@ -76,7 +76,7 @@ class _MyAppState extends State<MyApp> {
                 TextButton(
                     onPressed: () {
                       _zebraPrinterPlugin.printZPLOverBluetooth(
-                          macAddress: '', data: '');
+                          macAddress: controllerMac.text, data: controlleZpl.text);
                     },
                     child: const Text('Print Hello Word'))
               ],
