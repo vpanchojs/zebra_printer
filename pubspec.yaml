@@ -1,7 +1,7 @@
 name: zebra_printer
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: 'https://github.com/vpanchojs/zebra_printer/'
 
 environment:
   sdk: ^3.5.2
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  web: ^0.5.1
+  web: ^1.1.0
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
